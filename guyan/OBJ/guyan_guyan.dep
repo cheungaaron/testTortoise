@@ -94,7 +94,7 @@ I (..\STM32F0xx_FWLib\inc\stm32f0xx_tim.h)(0x528782D2)
 I (..\STM32F0xx_FWLib\inc\stm32f0xx_usart.h)(0x528782D4)
 I (..\STM32F0xx_FWLib\inc\stm32f0xx_wwdg.h)(0x528782D4)
 I (..\STM32F0xx_FWLib\inc\stm32f0xx_misc.h)(0x528782CE)
-F (.\motor.c)(0x6444FD88)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\SYSTEM -I ..\SYSTEM\delay -I ..\STM32F0xx_FWLib\inc -I ..\STM32F0xx_FWLib\src -I ..\HARDWARE\LED -I ..\HARDWARE\IWDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\EXTI -I ..\SYSTEM\sys -I ..\SYSTEM\USART-IC:\Users\Zhian\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="536" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
+F (.\motor.c)(0x64450061)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\SYSTEM -I ..\SYSTEM\delay -I ..\STM32F0xx_FWLib\inc -I ..\STM32F0xx_FWLib\src -I ..\HARDWARE\LED -I ..\HARDWARE\IWDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\EXTI -I ..\SYSTEM\sys -I ..\SYSTEM\USART-IC:\Users\Zhian\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="536" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
 I (Motor.h)(0x628B1F5C)
 I (..\SYSTEM\sys\sys.h)(0x5F6DABB6)
 I (..\CORE\stm32f0xx.h)(0x628AFB3A)
