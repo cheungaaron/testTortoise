@@ -1,0 +1,110 @@
+T695C 000:221.329   SEGGER J-Link V6.86 Log File
+T695C 000:221.456   DLL Compiled: Sep 24 2020 17:31:31
+T695C 000:221.462   Logging started @ 2023-04-10 10:58
+T695C 000:221.467 - 221.470ms
+T695C 000:221.479 JLINK_SetWarnOutHandler(...)
+T695C 000:221.486 - 0.009ms
+T695C 000:221.493 JLINK_OpenEx(...)
+T695C 000:222.691   Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+T695C 000:225.112   Hardware: V8.00
+T695C 000:225.123   S/N: 20080643
+T695C 000:225.131   OEM: SEGGER
+T695C 000:225.138   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+T695C 000:225.952   TELNET listener socket opened on port 19021
+T695C 000:226.028   WEBSRV Starting webserver
+T695C 000:226.145   WEBSRV Webserver running on local port 19080
+T695C 000:226.155 - 4.664ms returns "O.K."
+T695C 000:226.172 JLINK_GetEmuCaps()
+T695C 000:226.177 - 0.008ms returns 0xB9FF7BBF
+T695C 000:226.187 JLINK_TIF_GetAvailable(...)
+T695C 000:226.355 - 0.173ms
+T695C 000:226.368 JLINK_SetErrorOutHandler(...)
+T695C 000:226.373 - 0.008ms
+T695C 000:226.394 JLINK_ExecCommand("ProjectFile = "E:\liuHJ\TMC5130¸Ä\guyan\USER\JLinkSettings.ini"", ...). 
+T695C 000:234.051 - 7.668ms returns 0x00
+T695C 000:234.080 JLINK_ExecCommand("Device = STM32F030F4Px", ...). 
+T695C 000:234.241   Device "STM32F030F4" selected.
+T695C 000:234.558 - 0.475ms returns 0x00
+T695C 000:234.578 JLINK_GetHardwareVersion()
+T695C 000:234.583 - 0.008ms returns 80000
+T695C 000:234.600 JLINK_GetDLLVersion()
+T695C 000:234.606 - 0.008ms returns 68600
+T695C 000:234.613 JLINK_GetOEMString(...)
+T695C 000:234.620 JLINK_GetFirmwareString(...)
+T695C 000:234.625 - 0.008ms
+T695C 000:234.634 JLINK_GetDLLVersion()
+T695C 000:234.640 - 0.007ms returns 68600
+T695C 000:234.647 JLINK_GetCompileDateTime()
+T695C 000:234.652 - 0.007ms
+T695C 000:234.661 JLINK_GetFirmwareString(...)
+T695C 000:234.666 - 0.007ms
+T695C 000:234.674 JLINK_GetHardwareVersion()
+T695C 000:234.679 - 0.007ms returns 80000
+T695C 000:234.687 JLINK_GetSN()
+T695C 000:234.692 - 0.007ms returns 20080643
+T695C 000:234.699 JLINK_GetOEMString(...)
+T695C 000:234.709 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T695C 000:235.333 - 0.631ms returns 0x00
+T695C 000:235.348 JLINK_HasError()
+T695C 000:235.365 JLINK_SetSpeed(10)
+T695C 000:235.444 - 0.084ms
+T695C 000:235.706 JLINK_HasError()
+T695C 000:235.717 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T695C 000:235.723 - 0.008ms returns JLINKARM_RESET_TYPE_NORMAL
+T695C 000:235.731 JLINK_Reset()
+T695C 000:448.225   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T695C 000:499.387   
+  ***** Error: 
+T695C 000:499.402   Supply voltage too low (1 Volt is required, Measured: 0.6 Volt).
+Please check target power.
+T695C 000:499.421   
+  ***** Error: 
+T695C 000:499.429   STM32: Connecting to CPU via connect under reset failed.
+T695C 000:828.662   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T695C 000:879.670   
+  ***** Error: 
+T695C 000:879.692   STM32: Connecting to CPU via connect under reset failed.
+T695C 000:930.401 - 694.693ms
+T695C 000:930.441 JLINK_GetId()
+T695C 001:142.386   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T695C 001:193.322   
+  ***** Error: 
+T695C 001:193.336   STM32: Connecting to CPU via connect under reset failed.
+T695C 001:523.430   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T695C 001:574.514   
+  ***** Error: 
+T695C 001:574.530   STM32: Connecting to CPU via connect under reset failed.
+T695C 001:625.215 - 694.785ms returns 0x00000000
+T695C 001:625.256 JLINK_GetId()
+T695C 001:838.647   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T695C 001:890.183   
+  ***** Error: 
+T695C 001:890.199   STM32: Connecting to CPU via connect under reset failed.
+T695C 002:220.365   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T695C 002:271.641   
+  ***** Error: 
+T695C 002:271.656   STM32: Connecting to CPU via connect under reset failed.
+T695C 002:322.347 - 697.100ms returns 0x00000000
+T695C 002:326.841 JLINK_GetFirmwareString(...)
+T695C 002:326.853 - 0.057ms
+T695C 006:797.920 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T695C 006:798.242 - 0.327ms returns 0x00
+T695C 006:798.255 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T695C 006:798.555 - 0.308ms returns 0x00
+T695C 006:798.571 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T695C 006:798.843 - 0.279ms returns 0x00
+T695C 006:798.858 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T695C 006:799.166 - 0.313ms returns 0x00
+T695C 006:799.178 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T695C 006:799.440 - 0.267ms returns 0x00
+T695C 006:799.630 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T695C 006:799.903 - 0.279ms returns 0x00
+T3B08 009:810.440 Looking for J-Link GUI Server exe at: D:\Keil_v533\ARM\Segger\JLinkGUIServer.exe
+T3B08 009:810.590 Looking for J-Link GUI Server exe at: C:\Program Files (x86)\SEGGER\JLink_V618\\JLinkGUIServer.exe
+T3B08 010:112.898 Failed to connect to J-Link GUI Server.
+T7890 027:772.991   
+  ***** Error: Connection to emulator lost!
+T695C 051:989.715 JLINK_Close()
+T695C 051:998.778 - 9.074ms
+T695C 051:998.793   
+T695C 051:998.798   Closed
