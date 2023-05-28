@@ -27,7 +27,7 @@ int main(void)
 	//	LED=1;
 	//	delay_ms(300);	
 	//	LED=0;	
-	delay_ms(300);									//开机闪
+	delay_ms(300);									//
 
 	USART1_Init(9600);
 	printf("STM32F030F4P6已经开机。\r\n"); 	//确定串口发送正确
